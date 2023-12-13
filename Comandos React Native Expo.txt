@@ -1,0 +1,3 @@
+Comandos React Native Expo:
+
+npm install -g expo-cli
