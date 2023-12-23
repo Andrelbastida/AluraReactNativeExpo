@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+
+// preencher deixará o item estilizado por toda a tela , sem recorta-lo caso ele ultrapasse o seu tamanho exibido (não irá cortar no meio da tela)...
 export default StyleSheet.create({
     preencher: {
         flex:1,
