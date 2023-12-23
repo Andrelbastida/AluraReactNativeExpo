@@ -21,7 +21,7 @@ export default function CampoInteiro({valor , estilos , acao}) {
             style={[estilosPadrao.campo, estilos]}
             keyboardType='number-pad'
             selectTextOnFocus
-            onChangeText={(novoValor) => {acao(novoValor)}}
+            onChangeText={(novoValor) => {atualiza(novoValor, acao)}}
             value={numeroEmTexto}
         />
     );
